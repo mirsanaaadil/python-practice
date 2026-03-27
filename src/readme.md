@@ -2,24 +2,24 @@ Task Manager System
 
     A simple Python backend-style project to manage and validate tasks using a modular folder structure.
 
-Project Structure
+Project Structure:
     This project is organized into separate folders to keep the logic clean:
 
     src/api/task.py: Contains the data (list of tasks).
     src/utils/validator.py: Contains the logic to check if data is correct.
     src/main.py: The main file that runs the entire program.
 
-How To Run
+How To Run:
     Open your terminal in the python-practice folder.
     Run the following command:
         python src/main.py  
         
-Features
+Features:
     Data Retrieval: Fetches a list of tasks with id, title, and status.
     Validation: Uses if and for loops to ensure every task has the required information.
     Modular Design: Demonstrates how to import functions from different folders.
 
-Tech Used
+Tech Used:
     Language: Python 3
     Version Control: Git & GitHub
 
